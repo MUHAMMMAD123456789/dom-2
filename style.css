@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.animated{
+    animation: colomn 3s infinite alternate ;
+}
+
+@keyframes colomn {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+
+    
+}
+
+
+.blue_elem{
+    background-color: blue;
+}
+
+.violet_elem{
+    background-color: violet;
+}
